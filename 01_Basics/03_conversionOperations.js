@@ -21,9 +21,51 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 // "" => false
 // "Ankita" => true
 
-let someNumber = 33
+// let someNumber = 33
 
-let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// let stringNumber = String(someNumber)
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
 
+//************** Operations *****************
+
+let value = 3
+let negValue = -value
+//console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%2);
+
+
+// let str1 = "Hello"
+// let str2 = " Ankita"
+
+// let str3 = str1 + str2 
+// console.log(str3);
+
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+console.log(+true); //not preferred
+console.log(+""); //not preferred
+
+let num1, num2 ,num3 //not preferred
+
+num1 = num2 = num3 = 2+2 //not preferred
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+
+//Link to Study
+//https://tc39.es/ecma262/2023/multipage/abstract-operations.html#sec-type-conversion
+
+//******* Prefix and Postfix *********
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
